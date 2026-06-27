@@ -1,0 +1,798 @@
+{
+    "kpis": {
+        "total_customers": 7032,
+        "churned_customers": 1869,
+        "retained_customers": 5163,
+        "churn_rate": 26.58,
+        "retention_rate": 73.42,
+        "average_tenure": 32.42,
+        "average_monthly_charges": 64.8,
+        "average_total_charges": 2283.3
+    },
+    "charts": {
+        "churn_distribution": [
+            {
+                "status": "No",
+                "count": 5163
+            },
+            {
+                "status": "Yes",
+                "count": 1869
+            }
+        ],
+        "contract_churn": [
+            {
+                "Contract": "Month-to-month",
+                "Churn": "No",
+                "count": 2220
+            },
+            {
+                "Contract": "Month-to-month",
+                "Churn": "Yes",
+                "count": 1655
+            },
+            {
+                "Contract": "One year",
+                "Churn": "No",
+                "count": 1306
+            },
+            {
+                "Contract": "One year",
+                "Churn": "Yes",
+                "count": 166
+            },
+            {
+                "Contract": "Two year",
+                "Churn": "No",
+                "count": 1637
+            },
+            {
+                "Contract": "Two year",
+                "Churn": "Yes",
+                "count": 48
+            }
+        ],
+        "internet_churn": [
+            {
+                "InternetService": "DSL",
+                "Churn": "No",
+                "count": 1957
+            },
+            {
+                "InternetService": "DSL",
+                "Churn": "Yes",
+                "count": 459
+            },
+            {
+                "InternetService": "Fiber optic",
+                "Churn": "No",
+                "count": 1799
+            },
+            {
+                "InternetService": "Fiber optic",
+                "Churn": "Yes",
+                "count": 1297
+            },
+            {
+                "InternetService": "No",
+                "Churn": "No",
+                "count": 1407
+            },
+            {
+                "InternetService": "No",
+                "Churn": "Yes",
+                "count": 113
+            }
+        ],
+        "payment_churn": [
+            {
+                "PaymentMethod": "Bank transfer (automatic)",
+                "Churn": "No",
+                "count": 1284
+            },
+            {
+                "PaymentMethod": "Bank transfer (automatic)",
+                "Churn": "Yes",
+                "count": 258
+            },
+            {
+                "PaymentMethod": "Credit card (automatic)",
+                "Churn": "No",
+                "count": 1289
+            },
+            {
+                "PaymentMethod": "Credit card (automatic)",
+                "Churn": "Yes",
+                "count": 232
+            },
+            {
+                "PaymentMethod": "Electronic check",
+                "Churn": "No",
+                "count": 1294
+            },
+            {
+                "PaymentMethod": "Electronic check",
+                "Churn": "Yes",
+                "count": 1071
+            },
+            {
+                "PaymentMethod": "Mailed check",
+                "Churn": "No",
+                "count": 1296
+            },
+            {
+                "PaymentMethod": "Mailed check",
+                "Churn": "Yes",
+                "count": 308
+            }
+        ],
+        "tenure_churn": [
+            {
+                "TenureGroup": "0-12 Months",
+                "Churn": "No",
+                "count": 1138
+            },
+            {
+                "TenureGroup": "0-12 Months",
+                "Churn": "Yes",
+                "count": 1037
+            },
+            {
+                "TenureGroup": "13-24 Months",
+                "Churn": "No",
+                "count": 730
+            },
+            {
+                "TenureGroup": "13-24 Months",
+                "Churn": "Yes",
+                "count": 294
+            },
+            {
+                "TenureGroup": "25-48 Months",
+                "Churn": "No",
+                "count": 1269
+            },
+            {
+                "TenureGroup": "25-48 Months",
+                "Churn": "Yes",
+                "count": 325
+            },
+            {
+                "TenureGroup": "49-72 Months",
+                "Churn": "No",
+                "count": 2026
+            },
+            {
+                "TenureGroup": "49-72 Months",
+                "Churn": "Yes",
+                "count": 213
+            }
+        ],
+        "gender_churn": [
+            {
+                "gender": "Female",
+                "Churn": "No",
+                "count": 2544
+            },
+            {
+                "gender": "Female",
+                "Churn": "Yes",
+                "count": 939
+            },
+            {
+                "gender": "Male",
+                "Churn": "No",
+                "count": 2619
+            },
+            {
+                "gender": "Male",
+                "Churn": "Yes",
+                "count": 930
+            }
+        ],
+        "senior_citizen_churn": [
+            {
+                "SeniorCitizen": "No",
+                "Churn": "No",
+                "count": 4497
+            },
+            {
+                "SeniorCitizen": "No",
+                "Churn": "Yes",
+                "count": 1393
+            },
+            {
+                "SeniorCitizen": "Yes",
+                "Churn": "No",
+                "count": 666
+            },
+            {
+                "SeniorCitizen": "Yes",
+                "Churn": "Yes",
+                "count": 476
+            }
+        ],
+        "monthly_charges_by_churn": [
+            {
+                "Churn": "No",
+                "MonthlyCharges": 61.31
+            },
+            {
+                "Churn": "Yes",
+                "MonthlyCharges": 74.44
+            }
+        ],
+        "lifetime_by_churn": [
+            {
+                "Churn": "No",
+                "tenure": 37.65
+            },
+            {
+                "Churn": "Yes",
+                "tenure": 17.98
+            }
+        ]
+    },
+    "risk_segments": {
+        "contract_risk": [
+            {
+                "Contract": "Month-to-month",
+                "churn_rate": 42.71
+            },
+            {
+                "Contract": "One year",
+                "churn_rate": 11.28
+            },
+            {
+                "Contract": "Two year",
+                "churn_rate": 2.85
+            }
+        ],
+        "internet_risk": [
+            {
+                "InternetService": "DSL",
+                "churn_rate": 19.0
+            },
+            {
+                "InternetService": "Fiber optic",
+                "churn_rate": 41.89
+            },
+            {
+                "InternetService": "No",
+                "churn_rate": 7.43
+            }
+        ],
+        "payment_risk": [
+            {
+                "PaymentMethod": "Bank transfer (automatic)",
+                "churn_rate": 16.73
+            },
+            {
+                "PaymentMethod": "Credit card (automatic)",
+                "churn_rate": 15.25
+            },
+            {
+                "PaymentMethod": "Electronic check",
+                "churn_rate": 45.29
+            },
+            {
+                "PaymentMethod": "Mailed check",
+                "churn_rate": 19.2
+            }
+        ],
+        "tenure_risk": [
+            {
+                "TenureGroup": "0-12 Months",
+                "churn_rate": 47.68
+            },
+            {
+                "TenureGroup": "13-24 Months",
+                "churn_rate": 28.71
+            },
+            {
+                "TenureGroup": "25-48 Months",
+                "churn_rate": 20.39
+            },
+            {
+                "TenureGroup": "49-72 Months",
+                "churn_rate": 9.51
+            }
+        ]
+    },
+    "executive_summary": [
+        "Customer churn analysis helps identify customers who are likely to leave the business.",
+        "Month-to-month contract customers show higher churn risk compared to long-term contract customers.",
+        "Short-tenure customers need stronger onboarding and early retention support.",
+        "Payment method and monthly charges are important indicators of churn behavior.",
+        "Retention strategies should focus on high-risk customer segments to reduce revenue loss."
+    ],
+    "recommendations": [
+        "Encourage month-to-month customers to move to one-year or two-year contracts.",
+        "Offer onboarding support and loyalty benefits to customers in their first 12 months.",
+        "Investigate electronic check payment friction and improve payment experience.",
+        "Create targeted retention offers for customers with high monthly charges.",
+        "Promote bundled services and long-term plans to increase customer lifetime value."
+    ],
+    "dataset_preview": [
+        {
+            "customerID": "7590-VHVEG",
+            "gender": "Female",
+            "SeniorCitizen": "No",
+            "Partner": "Yes",
+            "Dependents": "No",
+            "tenure": 1,
+            "PhoneService": "No",
+            "MultipleLines": "No phone service",
+            "InternetService": "DSL",
+            "OnlineSecurity": "No",
+            "OnlineBackup": "Yes",
+            "DeviceProtection": "No",
+            "TechSupport": "No",
+            "StreamingTV": "No",
+            "StreamingMovies": "No",
+            "Contract": "Month-to-month",
+            "PaperlessBilling": "Yes",
+            "PaymentMethod": "Electronic check",
+            "MonthlyCharges": 29.85,
+            "TotalCharges": 29.85,
+            "Churn": "No",
+            "TenureGroup": "0-12 Months"
+        },
+        {
+            "customerID": "5575-GNVDE",
+            "gender": "Male",
+            "SeniorCitizen": "No",
+            "Partner": "No",
+            "Dependents": "No",
+            "tenure": 34,
+            "PhoneService": "Yes",
+            "MultipleLines": "No",
+            "InternetService": "DSL",
+            "OnlineSecurity": "Yes",
+            "OnlineBackup": "No",
+            "DeviceProtection": "Yes",
+            "TechSupport": "No",
+            "StreamingTV": "No",
+            "StreamingMovies": "No",
+            "Contract": "One year",
+            "PaperlessBilling": "No",
+            "PaymentMethod": "Mailed check",
+            "MonthlyCharges": 56.95,
+            "TotalCharges": 1889.5,
+            "Churn": "No",
+            "TenureGroup": "25-48 Months"
+        },
+        {
+            "customerID": "3668-QPYBK",
+            "gender": "Male",
+            "SeniorCitizen": "No",
+            "Partner": "No",
+            "Dependents": "No",
+            "tenure": 2,
+            "PhoneService": "Yes",
+            "MultipleLines": "No",
+            "InternetService": "DSL",
+            "OnlineSecurity": "Yes",
+            "OnlineBackup": "Yes",
+            "DeviceProtection": "No",
+            "TechSupport": "No",
+            "StreamingTV": "No",
+            "StreamingMovies": "No",
+            "Contract": "Month-to-month",
+            "PaperlessBilling": "Yes",
+            "PaymentMethod": "Mailed check",
+            "MonthlyCharges": 53.85,
+            "TotalCharges": 108.15,
+            "Churn": "Yes",
+            "TenureGroup": "0-12 Months"
+        },
+        {
+            "customerID": "7795-CFOCW",
+            "gender": "Male",
+            "SeniorCitizen": "No",
+            "Partner": "No",
+            "Dependents": "No",
+            "tenure": 45,
+            "PhoneService": "No",
+            "MultipleLines": "No phone service",
+            "InternetService": "DSL",
+            "OnlineSecurity": "Yes",
+            "OnlineBackup": "No",
+            "DeviceProtection": "Yes",
+            "TechSupport": "Yes",
+            "StreamingTV": "No",
+            "StreamingMovies": "No",
+            "Contract": "One year",
+            "PaperlessBilling": "No",
+            "PaymentMethod": "Bank transfer (automatic)",
+            "MonthlyCharges": 42.3,
+            "TotalCharges": 1840.75,
+            "Churn": "No",
+            "TenureGroup": "25-48 Months"
+        },
+        {
+            "customerID": "9237-HQITU",
+            "gender": "Female",
+            "SeniorCitizen": "No",
+            "Partner": "No",
+            "Dependents": "No",
+            "tenure": 2,
+            "PhoneService": "Yes",
+            "MultipleLines": "No",
+            "InternetService": "Fiber optic",
+            "OnlineSecurity": "No",
+            "OnlineBackup": "No",
+            "DeviceProtection": "No",
+            "TechSupport": "No",
+            "StreamingTV": "No",
+            "StreamingMovies": "No",
+            "Contract": "Month-to-month",
+            "PaperlessBilling": "Yes",
+            "PaymentMethod": "Electronic check",
+            "MonthlyCharges": 70.7,
+            "TotalCharges": 151.65,
+            "Churn": "Yes",
+            "TenureGroup": "0-12 Months"
+        },
+        {
+            "customerID": "9305-CDSKC",
+            "gender": "Female",
+            "SeniorCitizen": "No",
+            "Partner": "No",
+            "Dependents": "No",
+            "tenure": 8,
+            "PhoneService": "Yes",
+            "MultipleLines": "Yes",
+            "InternetService": "Fiber optic",
+            "OnlineSecurity": "No",
+            "OnlineBackup": "No",
+            "DeviceProtection": "Yes",
+            "TechSupport": "No",
+            "StreamingTV": "Yes",
+            "StreamingMovies": "Yes",
+            "Contract": "Month-to-month",
+            "PaperlessBilling": "Yes",
+            "PaymentMethod": "Electronic check",
+            "MonthlyCharges": 99.65,
+            "TotalCharges": 820.5,
+            "Churn": "Yes",
+            "TenureGroup": "0-12 Months"
+        },
+        {
+            "customerID": "1452-KIOVK",
+            "gender": "Male",
+            "SeniorCitizen": "No",
+            "Partner": "No",
+            "Dependents": "Yes",
+            "tenure": 22,
+            "PhoneService": "Yes",
+            "MultipleLines": "Yes",
+            "InternetService": "Fiber optic",
+            "OnlineSecurity": "No",
+            "OnlineBackup": "Yes",
+            "DeviceProtection": "No",
+            "TechSupport": "No",
+            "StreamingTV": "Yes",
+            "StreamingMovies": "No",
+            "Contract": "Month-to-month",
+            "PaperlessBilling": "Yes",
+            "PaymentMethod": "Credit card (automatic)",
+            "MonthlyCharges": 89.1,
+            "TotalCharges": 1949.4,
+            "Churn": "No",
+            "TenureGroup": "13-24 Months"
+        },
+        {
+            "customerID": "6713-OKOMC",
+            "gender": "Female",
+            "SeniorCitizen": "No",
+            "Partner": "No",
+            "Dependents": "No",
+            "tenure": 10,
+            "PhoneService": "No",
+            "MultipleLines": "No phone service",
+            "InternetService": "DSL",
+            "OnlineSecurity": "Yes",
+            "OnlineBackup": "No",
+            "DeviceProtection": "No",
+            "TechSupport": "No",
+            "StreamingTV": "No",
+            "StreamingMovies": "No",
+            "Contract": "Month-to-month",
+            "PaperlessBilling": "No",
+            "PaymentMethod": "Mailed check",
+            "MonthlyCharges": 29.75,
+            "TotalCharges": 301.9,
+            "Churn": "No",
+            "TenureGroup": "0-12 Months"
+        },
+        {
+            "customerID": "7892-POOKP",
+            "gender": "Female",
+            "SeniorCitizen": "No",
+            "Partner": "Yes",
+            "Dependents": "No",
+            "tenure": 28,
+            "PhoneService": "Yes",
+            "MultipleLines": "Yes",
+            "InternetService": "Fiber optic",
+            "OnlineSecurity": "No",
+            "OnlineBackup": "No",
+            "DeviceProtection": "Yes",
+            "TechSupport": "Yes",
+            "StreamingTV": "Yes",
+            "StreamingMovies": "Yes",
+            "Contract": "Month-to-month",
+            "PaperlessBilling": "Yes",
+            "PaymentMethod": "Electronic check",
+            "MonthlyCharges": 104.8,
+            "TotalCharges": 3046.05,
+            "Churn": "Yes",
+            "TenureGroup": "25-48 Months"
+        },
+        {
+            "customerID": "6388-TABGU",
+            "gender": "Male",
+            "SeniorCitizen": "No",
+            "Partner": "No",
+            "Dependents": "Yes",
+            "tenure": 62,
+            "PhoneService": "Yes",
+            "MultipleLines": "No",
+            "InternetService": "DSL",
+            "OnlineSecurity": "Yes",
+            "OnlineBackup": "Yes",
+            "DeviceProtection": "No",
+            "TechSupport": "No",
+            "StreamingTV": "No",
+            "StreamingMovies": "No",
+            "Contract": "One year",
+            "PaperlessBilling": "No",
+            "PaymentMethod": "Bank transfer (automatic)",
+            "MonthlyCharges": 56.15,
+            "TotalCharges": 3487.95,
+            "Churn": "No",
+            "TenureGroup": "49-72 Months"
+        },
+        {
+            "customerID": "9763-GRSKD",
+            "gender": "Male",
+            "SeniorCitizen": "No",
+            "Partner": "Yes",
+            "Dependents": "Yes",
+            "tenure": 13,
+            "PhoneService": "Yes",
+            "MultipleLines": "No",
+            "InternetService": "DSL",
+            "OnlineSecurity": "Yes",
+            "OnlineBackup": "No",
+            "DeviceProtection": "No",
+            "TechSupport": "No",
+            "StreamingTV": "No",
+            "StreamingMovies": "No",
+            "Contract": "Month-to-month",
+            "PaperlessBilling": "Yes",
+            "PaymentMethod": "Mailed check",
+            "MonthlyCharges": 49.95,
+            "TotalCharges": 587.45,
+            "Churn": "No",
+            "TenureGroup": "13-24 Months"
+        },
+        {
+            "customerID": "7469-LKBCI",
+            "gender": "Male",
+            "SeniorCitizen": "No",
+            "Partner": "No",
+            "Dependents": "No",
+            "tenure": 16,
+            "PhoneService": "Yes",
+            "MultipleLines": "No",
+            "InternetService": "No",
+            "OnlineSecurity": "No internet service",
+            "OnlineBackup": "No internet service",
+            "DeviceProtection": "No internet service",
+            "TechSupport": "No internet service",
+            "StreamingTV": "No internet service",
+            "StreamingMovies": "No internet service",
+            "Contract": "Two year",
+            "PaperlessBilling": "No",
+            "PaymentMethod": "Credit card (automatic)",
+            "MonthlyCharges": 18.95,
+            "TotalCharges": 326.8,
+            "Churn": "No",
+            "TenureGroup": "13-24 Months"
+        },
+        {
+            "customerID": "8091-TTVAX",
+            "gender": "Male",
+            "SeniorCitizen": "No",
+            "Partner": "Yes",
+            "Dependents": "No",
+            "tenure": 58,
+            "PhoneService": "Yes",
+            "MultipleLines": "Yes",
+            "InternetService": "Fiber optic",
+            "OnlineSecurity": "No",
+            "OnlineBackup": "No",
+            "DeviceProtection": "Yes",
+            "TechSupport": "No",
+            "StreamingTV": "Yes",
+            "StreamingMovies": "Yes",
+            "Contract": "One year",
+            "PaperlessBilling": "No",
+            "PaymentMethod": "Credit card (automatic)",
+            "MonthlyCharges": 100.35,
+            "TotalCharges": 5681.1,
+            "Churn": "No",
+            "TenureGroup": "49-72 Months"
+        },
+        {
+            "customerID": "0280-XJGEX",
+            "gender": "Male",
+            "SeniorCitizen": "No",
+            "Partner": "No",
+            "Dependents": "No",
+            "tenure": 49,
+            "PhoneService": "Yes",
+            "MultipleLines": "Yes",
+            "InternetService": "Fiber optic",
+            "OnlineSecurity": "No",
+            "OnlineBackup": "Yes",
+            "DeviceProtection": "Yes",
+            "TechSupport": "No",
+            "StreamingTV": "Yes",
+            "StreamingMovies": "Yes",
+            "Contract": "Month-to-month",
+            "PaperlessBilling": "Yes",
+            "PaymentMethod": "Bank transfer (automatic)",
+            "MonthlyCharges": 103.7,
+            "TotalCharges": 5036.3,
+            "Churn": "Yes",
+            "TenureGroup": "49-72 Months"
+        },
+        {
+            "customerID": "5129-JLPIS",
+            "gender": "Male",
+            "SeniorCitizen": "No",
+            "Partner": "No",
+            "Dependents": "No",
+            "tenure": 25,
+            "PhoneService": "Yes",
+            "MultipleLines": "No",
+            "InternetService": "Fiber optic",
+            "OnlineSecurity": "Yes",
+            "OnlineBackup": "No",
+            "DeviceProtection": "Yes",
+            "TechSupport": "Yes",
+            "StreamingTV": "Yes",
+            "StreamingMovies": "Yes",
+            "Contract": "Month-to-month",
+            "PaperlessBilling": "Yes",
+            "PaymentMethod": "Electronic check",
+            "MonthlyCharges": 105.5,
+            "TotalCharges": 2686.05,
+            "Churn": "No",
+            "TenureGroup": "25-48 Months"
+        },
+        {
+            "customerID": "3655-SNQYZ",
+            "gender": "Female",
+            "SeniorCitizen": "No",
+            "Partner": "Yes",
+            "Dependents": "Yes",
+            "tenure": 69,
+            "PhoneService": "Yes",
+            "MultipleLines": "Yes",
+            "InternetService": "Fiber optic",
+            "OnlineSecurity": "Yes",
+            "OnlineBackup": "Yes",
+            "DeviceProtection": "Yes",
+            "TechSupport": "Yes",
+            "StreamingTV": "Yes",
+            "StreamingMovies": "Yes",
+            "Contract": "Two year",
+            "PaperlessBilling": "No",
+            "PaymentMethod": "Credit card (automatic)",
+            "MonthlyCharges": 113.25,
+            "TotalCharges": 7895.15,
+            "Churn": "No",
+            "TenureGroup": "49-72 Months"
+        },
+        {
+            "customerID": "8191-XWSZG",
+            "gender": "Female",
+            "SeniorCitizen": "No",
+            "Partner": "No",
+            "Dependents": "No",
+            "tenure": 52,
+            "PhoneService": "Yes",
+            "MultipleLines": "No",
+            "InternetService": "No",
+            "OnlineSecurity": "No internet service",
+            "OnlineBackup": "No internet service",
+            "DeviceProtection": "No internet service",
+            "TechSupport": "No internet service",
+            "StreamingTV": "No internet service",
+            "StreamingMovies": "No internet service",
+            "Contract": "One year",
+            "PaperlessBilling": "No",
+            "PaymentMethod": "Mailed check",
+            "MonthlyCharges": 20.65,
+            "TotalCharges": 1022.95,
+            "Churn": "No",
+            "TenureGroup": "49-72 Months"
+        },
+        {
+            "customerID": "9959-WOFKT",
+            "gender": "Male",
+            "SeniorCitizen": "No",
+            "Partner": "No",
+            "Dependents": "Yes",
+            "tenure": 71,
+            "PhoneService": "Yes",
+            "MultipleLines": "Yes",
+            "InternetService": "Fiber optic",
+            "OnlineSecurity": "Yes",
+            "OnlineBackup": "No",
+            "DeviceProtection": "Yes",
+            "TechSupport": "No",
+            "StreamingTV": "Yes",
+            "StreamingMovies": "Yes",
+            "Contract": "Two year",
+            "PaperlessBilling": "No",
+            "PaymentMethod": "Bank transfer (automatic)",
+            "MonthlyCharges": 106.7,
+            "TotalCharges": 7382.25,
+            "Churn": "No",
+            "TenureGroup": "49-72 Months"
+        },
+        {
+            "customerID": "4190-MFLUW",
+            "gender": "Female",
+            "SeniorCitizen": "No",
+            "Partner": "Yes",
+            "Dependents": "Yes",
+            "tenure": 10,
+            "PhoneService": "Yes",
+            "MultipleLines": "No",
+            "InternetService": "DSL",
+            "OnlineSecurity": "No",
+            "OnlineBackup": "No",
+            "DeviceProtection": "Yes",
+            "TechSupport": "Yes",
+            "StreamingTV": "No",
+            "StreamingMovies": "No",
+            "Contract": "Month-to-month",
+            "PaperlessBilling": "No",
+            "PaymentMethod": "Credit card (automatic)",
+            "MonthlyCharges": 55.2,
+            "TotalCharges": 528.35,
+            "Churn": "Yes",
+            "TenureGroup": "0-12 Months"
+        },
+        {
+            "customerID": "4183-MYFRB",
+            "gender": "Female",
+            "SeniorCitizen": "No",
+            "Partner": "No",
+            "Dependents": "No",
+            "tenure": 21,
+            "PhoneService": "Yes",
+            "MultipleLines": "No",
+            "InternetService": "Fiber optic",
+            "OnlineSecurity": "No",
+            "OnlineBackup": "Yes",
+            "DeviceProtection": "Yes",
+            "TechSupport": "No",
+            "StreamingTV": "No",
+            "StreamingMovies": "Yes",
+            "Contract": "Month-to-month",
+            "PaperlessBilling": "Yes",
+            "PaymentMethod": "Electronic check",
+            "MonthlyCharges": 90.05,
+            "TotalCharges": 1862.9,
+            "Churn": "No",
+            "TenureGroup": "13-24 Months"
+        }
+    ]
+}
