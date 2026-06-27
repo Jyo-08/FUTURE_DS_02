@@ -175,7 +175,7 @@ python analysis.py
 
 GitHub: https://github.com/Jyo-08
 
-LinkedIn: *(Add your LinkedIn profile here.)*
+LinkedIn: www.linkedin.com/in/jyotish-n-473440377
 
 ---
 
