@@ -1,6 +1,7 @@
 # Customer Retention Intelligence
 
 An interactive Business Intelligence dashboard for customer churn analysis built using Python, React, and Tailwind CSS.
+
 ---
 
 ## Live Demo
