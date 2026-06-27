@@ -2,6 +2,7 @@ import useAnalytics from "./hooks/useAnalytics";
 import Navbar from "./components/layout/Navbar";
 import HeroSection from "./components/dashboard/HeroSection";
 import KPICards from "./components/dashboard/KPICards";
+import CustomerHealth from "./components/dashboard/CustomerHealth";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Navbar />
         <HeroSection kpis={data.kpis} />
         <KPICards kpis={data.kpis} />
+        <CustomerHealth kpis={data.kpis} />
       </div>
     </div>
   );
