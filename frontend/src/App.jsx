@@ -1,5 +1,6 @@
 import useAnalytics from "./hooks/useAnalytics";
 import Navbar from "./components/layout/Navbar";
+import HeroSection from "./components/dashboard/HeroSection";
 
 function App() {
   const { data, loading, error } = useAnalytics();
@@ -11,12 +12,7 @@ function App() {
     <div className="min-h-screen bg-slate-100 p-10">
       <div className="mx-auto max-w-7xl">
         <Navbar />
-
-        <div className="rounded-3xl bg-white p-8 shadow-xl">
-          <h2 className="text-5xl font-bold text-blue-600">
-            {data.kpis.total_customers}
-          </h2>
-        </div>
+        <HeroSection kpis={data.kpis} />
       </div>
     </div>
   );
