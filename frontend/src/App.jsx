@@ -6,7 +6,8 @@ import CustomerHealth from "./components/dashboard/CustomerHealth";
 import CustomerBehaviour from "./components/dashboard/CustomerBehaviour";
 import RevenueIntelligence from "./components/dashboard/RevenueIntelligence";
 import BusinessIntelligence from "./components/dashboard/BusinessIntelligence";
-//import DatasetExplorer from "./components/dashboard/DatasetExplorer";
+import DatasetExplorer from "./components/dashboard/DatasetExplorer";
+import Footer from "./components/Footer";
 
 function App() {
   const { data, loading, error } = useAnalytics();
@@ -29,7 +30,8 @@ function App() {
           summary={data.executive_summary}
           recommendations={data.recommendations}
         />
-        {/* <DatasetExplorer data={data.dataset} /> */} 
+        <DatasetExplorer rows={data.dataset_preview} />
+        <Footer />
       </div>
     </div>
   );
