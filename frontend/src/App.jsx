@@ -3,6 +3,7 @@ import Navbar from "./components/layout/Navbar";
 import HeroSection from "./components/dashboard/HeroSection";
 import KPICards from "./components/dashboard/KPICards";
 
+
 function App() {
   const { data, loading, error } = useAnalytics();
 
