@@ -64,12 +64,63 @@ function CustomerHealth({ kpis }) {
             </div>
           </div>
 
-          <p className="mt-8 leading-7 text-slate-600">
-            The business retains most customers, but the churn percentage still
-            shows a meaningful risk. Retention strategies should focus on
-            customers with short tenure, month-to-month contracts, and higher
-            monthly charges.
-          </p>
+          <div className="grid grid-cols-2 gap-5">
+
+  <div className="rounded-2xl bg-white p-5 shadow-sm">
+    <p className="text-sm font-medium text-slate-500">
+      Total Customers
+    </p>
+    <h3 className="mt-2 text-4xl font-bold text-slate-900">
+      {kpis.total_customers}
+    </h3>
+  </div>
+
+  <div className="rounded-2xl bg-white p-5 shadow-sm">
+    <p className="text-sm font-medium text-slate-500">
+      Retained
+    </p>
+    <h3 className="mt-2 text-4xl font-bold text-green-600">
+      {kpis.retained_customers}
+    </h3>
+  </div>
+
+  <div className="rounded-2xl bg-white p-5 shadow-sm">
+    <p className="text-sm font-medium text-slate-500">
+      Churned
+    </p>
+    <h3 className="mt-2 text-4xl font-bold text-red-600">
+      {kpis.churned_customers}
+    </h3>
+  </div>
+
+  <div className="rounded-2xl bg-white p-5 shadow-sm">
+    <p className="text-sm font-medium text-slate-500">
+      Retention
+    </p>
+    <h3 className="mt-2 text-4xl font-bold text-green-600">
+      {kpis.retention_rate}%
+    </h3>
+  </div>
+
+  <div className="rounded-2xl bg-white p-5 shadow-sm">
+    <p className="text-sm font-medium text-slate-500">
+      Churn Rate
+    </p>
+    <h3 className="mt-2 text-4xl font-bold text-red-600">
+      {kpis.churn_rate}%
+    </h3>
+  </div>
+
+  <div className="rounded-2xl bg-white p-5 shadow-sm">
+    <p className="text-sm font-medium text-slate-500">
+      Avg Monthly Charges
+    </p>
+    <h3 className="mt-2 text-4xl font-bold text-blue-600">
+      ${kpis.average_monthly_charges}
+    </h3>
+  </div>
+
+</div>
         </div>
       </div>
     </section>

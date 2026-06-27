@@ -3,7 +3,8 @@ import Navbar from "./components/layout/Navbar";
 import HeroSection from "./components/dashboard/HeroSection";
 import KPICards from "./components/dashboard/KPICards";
 import CustomerHealth from "./components/dashboard/CustomerHealth";
-
+import CustomerBehaviour from "./components/dashboard/CustomerBehaviour";
+import RevenueIntelligence from "./components/dashboard/RevenueIntelligence";
 
 function App() {
   const { data, loading, error } = useAnalytics();
@@ -18,6 +19,10 @@ function App() {
         <HeroSection kpis={data.kpis} />
         <KPICards kpis={data.kpis} />
         <CustomerHealth kpis={data.kpis} />
+        <CustomerBehaviour
+        data={data.risk_segments}
+        />
+        <RevenueIntelligence kpis={data.kpis} />
       </div>
     </div>
   );
