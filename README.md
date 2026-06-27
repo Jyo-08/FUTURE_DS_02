@@ -17,6 +17,42 @@ Customer Retention Intelligence is a Business Intelligence dashboard designed to
 The project combines a Python analytics engine with a React frontend to transform raw customer records into meaningful KPIs, behavioral analytics, revenue insights, and executive recommendations.
 
 ---
+## Dashboard Preview
+
+### Navigation
+
+![Navbar](Screenshots/Navbar.png)
+
+---
+
+### Hero Section
+
+![Hero](Screenshots/Hero.png)
+
+---
+
+### Customer Health Overview
+
+![Overview](Screenshots/Overview.png)
+
+---
+
+### Customer Behaviour Analytics
+
+![Behaviour Analysis](Screenshots/Behaviour_Analysis.png)
+
+---
+
+### Dataset Explorer
+
+![Dataset](Screenshots/Dataset.png)
+
+---
+
+### Footer
+
+![Footer](Screenshots/footer.png)
+
 
 ## Features
 
