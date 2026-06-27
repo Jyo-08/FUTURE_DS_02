@@ -5,6 +5,8 @@ import KPICards from "./components/dashboard/KPICards";
 import CustomerHealth from "./components/dashboard/CustomerHealth";
 import CustomerBehaviour from "./components/dashboard/CustomerBehaviour";
 import RevenueIntelligence from "./components/dashboard/RevenueIntelligence";
+import BusinessIntelligence from "./components/dashboard/BusinessIntelligence";
+//import DatasetExplorer from "./components/dashboard/DatasetExplorer";
 
 function App() {
   const { data, loading, error } = useAnalytics();
@@ -23,6 +25,11 @@ function App() {
         data={data.risk_segments}
         />
         <RevenueIntelligence kpis={data.kpis} />
+        <BusinessIntelligence
+          summary={data.executive_summary}
+          recommendations={data.recommendations}
+        />
+        {/* <DatasetExplorer data={data.dataset} /> */} 
       </div>
     </div>
   );
