@@ -1,6 +1,7 @@
 import useAnalytics from "./hooks/useAnalytics";
 import Navbar from "./components/layout/Navbar";
 import HeroSection from "./components/dashboard/HeroSection";
+import KPICards from "./components/dashboard/KPICards";
 
 function App() {
   const { data, loading, error } = useAnalytics();
@@ -13,6 +14,7 @@ function App() {
       <div className="mx-auto max-w-7xl">
         <Navbar />
         <HeroSection kpis={data.kpis} />
+        <KPICards kpis={data.kpis} />
       </div>
     </div>
   );
